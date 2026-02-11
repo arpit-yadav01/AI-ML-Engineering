@@ -15,3 +15,6 @@ for i in range (5):
 # Find highest & lowest
 print("Highest Mark:", max(marks))
 print("Lowest Mark:", min(marks))
+
+
+#new lines
