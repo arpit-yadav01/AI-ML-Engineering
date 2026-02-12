@@ -1,0 +1,6 @@
+
+----- MARKS REPORT -----
+Marks: [60, 70, 80, 90, 90]
+Total: 390
+Average: 78.0
+Grade: B

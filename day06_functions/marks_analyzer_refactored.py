@@ -33,7 +33,7 @@
 # print("Lowest:", lowest(marks))
 
 
-print("the student marks usign the function ")
+print("the student marks using the function ")
 
 def get_marks():
     marks=[]
@@ -62,7 +62,7 @@ total=  totalmarks(marks)
 avg= averagemarks(total, len(marks))
 
 
-print("/n ", marks )
+print("\n ", marks )
 
 print(" total marks " ,total )
 
