@@ -59,6 +59,7 @@ while maxattempt > attempt:
 
     print("Attempts left:", maxattempt - attempt)
 
+
 if attempt == maxattempt and guess != secretnumber:
     print("No more attempts left")
     print("Game Over. Number was:", secretnumber)
