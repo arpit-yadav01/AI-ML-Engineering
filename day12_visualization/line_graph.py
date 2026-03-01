@@ -9,6 +9,7 @@ df = pd.read_csv("../day11_data_cleaning/messy_students.csv")
 # Fill missing values
 df["Marks"] = df["Marks"].fillna(df["Marks"].mean())
 
+
 # Line Graph
 plt.figure()
 plt.plot(df["Marks"])
