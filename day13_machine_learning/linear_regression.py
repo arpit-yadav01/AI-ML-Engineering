@@ -29,6 +29,7 @@ new_prediction = model.predict(new_hours)
 
 print("Predicted marks for 7 hours:", new_prediction)
 
+
 # Visualization
 plt.scatter(X, y)
 plt.plot(X, predictions)
