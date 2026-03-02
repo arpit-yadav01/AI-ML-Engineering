@@ -1,4 +1,24 @@
+"""
+DAY 14 - TRAIN / TEST SPLIT & MODEL EVALUATION
 
+IMPORTANT THEORY NOTES:
+
+1️⃣ Why Split Data?
+If we train and test on same data,
+model may memorize instead of learning.
+
+So we split data into:
+- Training Data (to learn)
+- Testing Data (to evaluate)
+
+2️⃣ What is Overfitting?
+When model performs very well on training data
+but poorly on new unseen data.
+
+3️⃣ Evaluation Metrics:
+- MSE (Mean Squared Error) → Lower is better
+- R² Score → Closer to 1 is better
+"""
 
 import numpy as np
 import matplotlib.pyplot as plt
