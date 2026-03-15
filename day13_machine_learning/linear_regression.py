@@ -16,6 +16,7 @@ y = np.array([45, 50, 60, 65, 75, 85])
 # Create model object
 model = LinearRegression()
 
+
 # Train model (learning happens here)
 model.fit(X, y)
 
