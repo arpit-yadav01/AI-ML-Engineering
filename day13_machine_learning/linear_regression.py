@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 print("📈 Linear Regression - Beginner Version")
 
+
 # Feature (Input)
 # Hours studied
 X = np.array([1, 2, 3, 4, 5, 6]).reshape(-1, 1)
